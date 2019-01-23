@@ -15,5 +15,5 @@ function deleteFromObjectByKey(object, key) {
   console.log(newobject)
   delete newobject[key]
   console.log(newobject)
-  return object
+  return newobject
 }
