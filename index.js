@@ -6,8 +6,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  console.log(object)
   object[key] = value
-  console.log(object)
   return object
 }
